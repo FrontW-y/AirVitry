@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Formulaire.css-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Form</title>
+</head>
+
+<body>
+    <!--Barre de la Page-->
+
+    <section class="header">
+    </section>
+    <!--Contenue de Page-->
+    <div class="row">
+        <section class="container">
+            <h1>Qualite de l'air de Vitry</h1>
+            <p>Ce site application vous fournira la qualité de l'air de Vitry-Sur-Seine <br> Les données proviennent de la plateforme publique data gouv qui nous <br> a fournis les données pour cette application.
+            </p>
+            <P>Veuillez donc saisir une date valide afin de commencer l'application web !</P>
+    </div>
+    </section>
+    <section class="formulaire">
+        <form action="/" method="POST">
+            <label for="date">Entrer la date (JJ/MM/AAAA) :</label>
+            <input type="text" id="date" name="date">
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    <!--Pied de Page-->
+    <section>
+        <section class="footer">
+            <p>Source des données: https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/temps-reel/</p>
+        </section>
+        <!--Fin de la Page-->
+</body>
+
+</html>

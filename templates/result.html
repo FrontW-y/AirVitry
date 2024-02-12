@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Résultats</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='result.css') }}"
+    />
+  </head>
+  <body>
+    <!--Barre de la Page-->
+    <section class="header"></section>
+    <!-- Titre-->
+    <h1>Résultats</h1>
+    <!--Tableau-->
+    <section class="tableau">{{data|safe}}</section>
+    <!--Graphe-->
+    <section class="graphe">
+      <img src="{{img}}" alt="Graphique" />
+    </section>
+        <!--Pied de Page-->
+        <section>
+          <div class="footer">
+              <p>Source des données: https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/temps-reel/</p>
+          </div>
+          <!--Fin de la Page-->
+  </body>
+</html>

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container h1 {
+    margin-top: 3%;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 35%;
+}
+
+.container p {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.header {
+    background-color: #261750;
+    min-height: 15vh;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #261750;
+    position: absolute;
+    bottom: -3%;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: aliceblue;
+}
+
+.formulaire {
+    margin-top: 3%;
+    margin-left: 37%;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 2%;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-left: 45%;
+}
+
+.container p {
+    margin-left: 25%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.header {
+    background-color: #261750;
+    min-height: 15vh;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #261750;
+    position: absolute;
+    bottom: -75%;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: aliceblue;
+}
+
+.tableau {
+    margin-left: 15%;
+}
+
+.graphe {
+    margin-left: 50%;
+    margin-bottom: 30%;
+}
